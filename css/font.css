@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'HelveticaNeueLTStd67MediumCon';
+    src: url('../font/helveticaneueltstd-mdcn-webfont.eot?') format('eot'),
+         url('../font/helveticaneueltstd-mdcn-webfont.woff') format('woff'),
+         url('../font/helveticaneueltstd-mdcn-webfont.ttf') format('truetype'),
+         url('../font/helveticaneueltstd-mdcn-webfont.svg#webfontqQKoo75o') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
