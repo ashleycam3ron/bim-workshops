@@ -315,7 +315,17 @@ padding: 5px 10px;background: transparent;
 	   .page-id-220 #banner #info{background: rgba(22, 16, 29, 0.6);}
 	   .page-id-220 #banner #info h2{font-weight: 400;}
 	   .page-id-220 #banner #info a{color: #555;}
-	   .page-id-220 #banner #copy{margin: 4.5% 0 0 385px;width: 22%;}
+	   .page-id-220 #banner #copy{margin:10px 0 0 385px;width:50%;}
+	
+	#secondary-nav{list-style: none;margin: 0;padding:10px 0;background: #333;text-align: center;box-shadow: inset 0 0 7px #222;}
+	#secondary-nav li{display:inline-block;}
+	#secondary-nav a{color:white;padding: .25em 1em;display: block;text-transform: uppercase;border-right: 1px solid #444;}
+	#secondary-nav a:hover{opacity:.8;}
+	#secondary-nav li:last-child a{border:0;}
+	.parent-pageid-100 #secondary-nav li.current_page_item a{color:rgb(186, 163, 93);}
+	.parent-pageid-107 #secondary-nav li.current_page_item a{color:rgb(199, 71, 71);}
+	.parent-pageid-108 #secondary-nav li.current_page_item a{color:rgb(89, 121, 163);}
+	#secondary-nav ul{display: none;}
 	
 	#feature {width: 80%;margin:17px 10%;background:rgba(35, 51, 71, 0.94);color: #FFF;}
 		#feature img{display: inline-block;width: 25%;}
@@ -327,7 +337,8 @@ padding: 5px 10px;background: transparent;
 	#banner #location{font-style: italic;}
 	.register{background: rgba(0, 0, 0, 0.25);}
 	#info h2{font-size: 42px;line-height: 40px;margin:10px 0 0;}
-	.page-id-220 #info h2 {font-size: x-large;margin: 40px 0 0;}
+	.page-id-220 #info h2 {font-size: x-large;margin:0;}
+	.page-id-220 #banner {height: 350px;}
 	#banner #copy {position: absolute;color: #FFF;margin: 75px 0 0 385px;width: 40%;font-weight: 100;text-shadow: 0px 0px 10px #000;}
 		.medium {font-size: 120%;}
 		.large {font-size: 160%;line-height: 1.5em;}
